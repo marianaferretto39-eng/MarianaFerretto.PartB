@@ -6,9 +6,14 @@ function setup() {
 }
 
 function draw() {
-//Vermelho
-  fill(238,36,0);
-rect(0,0,362,316);
+// Vermelho piscando
+if (random(1) > 0.5) {
+  fill(238, 36, 0);
+} else {
+  fill(237, 241, 237);
+}
+
+rect(0, 0, 362, 316);
 
 //o fill é o preenchimento branco e com tab consigo manter tudo junto
 fill(237,241,237);
@@ -58,6 +63,6 @@ for (let i = 0; i < 100000; i++) {
   
 
 } 
-noLoop();
+//noLoop();
 //noLoop() faz com que o desenho seja feito apenas uma vez, sem repetir
 }
