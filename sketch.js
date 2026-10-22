@@ -55,6 +55,8 @@ for (let i = 0; i < 100000; i++) {
   fill(0, 0, 0, 10);
   rect(random(width), random(height), 1, 1);
   //random é aleatório, ele vai sortear um valor entre 0 e o valor que eu colocar dentro do random, no caso width e height
+  
+
 } 
 noLoop();
 //noLoop() faz com que o desenho seja feito apenas uma vez, sem repetir
