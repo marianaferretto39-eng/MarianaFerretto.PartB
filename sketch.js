@@ -6,11 +6,12 @@ function setup() {
 }
 
 function draw() {
-// Vermelho piscando
+// Vermelho piscando mudança partB
 if (random(1) > 0.5) {
   fill(238, 36, 0);
 } else {
   fill(237, 241, 237);
+  //
 }
 
 rect(0, 0, 362, 316);
